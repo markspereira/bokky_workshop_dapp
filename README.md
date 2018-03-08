@@ -28,4 +28,7 @@ https://github.com/creationix/nvm
 ## Create a React App!
 https://github.com/facebook/create-react-app
 
-#Let's code! 🎉
+You should just be able to run
+```npx create-react-app my-app```
+
+# Let's code! 🎉
