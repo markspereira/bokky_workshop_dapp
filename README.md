@@ -1,7 +1,7 @@
 # ÐApp tutorial
 ÐApp tutorial starter-kit for Booky Poobah workshop
 
-![Scheme](images/joe-logo.png)
+![Scheme](public/PRESENTATION-1.svg)
 
 What is a ÐApp?
 
