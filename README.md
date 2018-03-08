@@ -15,7 +15,7 @@ A ÐApp can have frontend code and user interfaces written in any language (just
 
 # Get Started
 
-Go into a directory in your terminal that you want the project to reside in.
+Go into your terminal and choose a directory that you want the project to reside in.
 Enter into your terminal
 `git clone https://github.com/markspereira/bokky_workshop_dapp.git`
 
