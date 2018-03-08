@@ -35,7 +35,7 @@ https://github.com/ethereum/go-ethereum/wiki/Installation-instructions-for-Windo
 after installing then run geth on your computer by going into your DApp's root directory and entering
 `./testnet.sh`
 
-If you get a Permission Denied error the enter ```sudo chmod 755 'testnet.sh'``` before you run ```./testnet.sh```
+If you get a Permission Denied error, then enter ```sudo chmod 755 'testnet.sh'``` before you run ```./testnet.sh```
 
 
 ## Install NVM
