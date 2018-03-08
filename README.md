@@ -15,20 +15,43 @@ A ÐApp can have frontend code and user interfaces written in any language (just
 
 # Get Started
 
+Go into a directory in your terminal that you want the project to reside in.
+Enter into your terminal
+`git clone https://github.com/markspereira/bokky_workshop_dapp.git`
+
 ## Geth Installation
 
-### for Mac
+Check to see if you have geth by running
+
+``` geth version ```
+
+if not then
+
+### Download for Mac
 https://github.com/ethereum/go-ethereum/wiki/Installation-Instructions-for-Mac
-### for Windows
+### Download for Windows
 https://github.com/ethereum/go-ethereum/wiki/Installation-instructions-for-Windows
 
+after installing then run geth on your computer by going into your DApp's root directory and entering
+`./testnet.sh`
+
+If you get a Permission Denied error the enter ```sudo chmod 755 'testnet.sh'``` before you run ```./testnet.sh```
+
+
 ## Install NVM
+
+Check to see if you have nvm by running ``` nvm --version ```
+
+If not then download it from
 https://github.com/creationix/nvm
 
 ## Create a React App!
-https://github.com/facebook/create-react-app
 
 You should just be able to run
-```npx create-react-app my-app```
+```npx create-react-app my-app my_dapp``` <-!!change my_dapp to what you want the name of your DApp to be
+**name can not contain capital letters!!**
+
+https://github.com/facebook/create-react-app
+
 
 # Let's code! 🎉
