@@ -1,0 +1,11 @@
+
+echo '📫 Creating Joe Server...'; printf '\e]1;Joe Server\a'; cd joe_server; yarn; npm start;
+echo '📱 Creating Joe Mobile Instance...'; printf '\e]1;Joe Mobile\a'; cd joe_mobile; yarn; react-native run-ios;
+echo '💻 Creating Joe Desktop Instance...'; printf '\e]1;Joe Desktop\a'; cd joe_desktop; yarn; npm start;
+echo '🌐 Creating Joe Web Instance...'; printf '\e]1;Joe Web App\a'; echo '🎊 Coming Soon... 🎉'; open https://github.com/markspereira/joe;
+echo '🔗⛓ Starting Geth node'; printf '\e]1;Ethereum Test Net\a'; rm -f ./testchain/geth/chaindata/* & geth --datadir ./testchain init genesis.json & geth --datadir ./testchain --unlock 0 --password ./testpassword --rpc --rpccorsdomain '*' --rpcport 8646 --rpcapi 'eth,net,web3,debug' --port 32323 --mine --minerthreads 1 --maxpeers 0 --targetgaslimit 994712388 console
+echo '📫 Creating Joe Server...'; printf '\e]1;Joe Server\a'; cd joe_v0/joe/joe_server; yarn; npm start;
+echo '📱 Creating Joe Mobile Instance...'; printf '\e]1;Joe Mobile\a'; cd joe_v0/joe/joe_mobile; yarn; react-native run-ios;
+echo '💻 Creating Joe Desktop Instance...'; printf '\e]1;Joe Desktop\a'; cd joe_v0/joe/joe_desktop; yarn; npm start;
+echo '🌐 Creating Joe Web Instance...'; printf '\e]1;Joe Web App\a'; echo '🎊 Coming Soon... 🎉'; open https://github.com/markspereira/joe;
+echo '🔗⛓ Starting Geth node'; printf '\e]1;Ethereum Test Net\a'; rm -f ./testchain/geth/chaindata/* & geth --datadir ./testchain init genesis.json & geth --datadir ./testchain --unlock 0 --password ./testpassword --rpc --rpccorsdomain '*' --rpcport 8646 --rpcapi 'eth,net,web3,debug' --port 32323 --mine --minerthreads 1 --maxpeers 0 --targetgaslimit 994712388 console
