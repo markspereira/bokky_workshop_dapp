@@ -31,8 +31,18 @@ if not then
 https://github.com/ethereum/go-ethereum/wiki/Installation-Instructions-for-Mac
 ### Download for Windows
 https://github.com/ethereum/go-ethereum/wiki/Installation-instructions-for-Windows
+### Installation on Ubuntu
+``` sudo apt-get install software-properties-common ```
 
-after installing then run geth on your computer by going into your DApp's root directory and entering
+``` sudo add-apt-repository -y ppa:ethereum/ethereum ```
+
+``` sudo apt-get update ```
+
+``` sudo apt-get install ethereum ```
+
+Source: https://github.com/ethereum/go-ethereum/wiki/Installation-Instructions-for-Ubuntu
+
+After installing then run geth on your computer by going into your DApp's root directory and entering
 `./testnet.sh`
 
 If you get a Permission Denied error, then enter ```sudo chmod 755 'testnet.sh'``` before you run ```./testnet.sh```
@@ -45,10 +55,21 @@ Check to see if you have nvm by running ``` nvm --version ```
 If not then download it from
 https://github.com/creationix/nvm
 
+## Install Node.js
+
+``` nvm install 8.10.0 ```
+
+
 ## Create a React App!
 
-You should just be able to run
-```npx create-react-app my_dapp``` <-!!change my_dapp to what you want the name of your DApp to be
+You should just be able to run npx.
+
+!! change my_dapp to what you want the name of your DApp to be 
+
+!! the app will be created in the current directory; make sure to change to a desired directory before creating the app
+
+```npx create-react-app my_dapp``` 
+
 **name can not contain capital letters!!**
 
 https://github.com/facebook/create-react-app
