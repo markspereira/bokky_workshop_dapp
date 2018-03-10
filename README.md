@@ -62,10 +62,14 @@ https://github.com/creationix/nvm
 
 ## Create a React App!
 
-You should just be able to run
-```npx create-react-app my_dapp``` 
+You should just be able to run npx.
+
 !! change my_dapp to what you want the name of your DApp to be 
-!! the app will be created in the current directory; make sure to change to suitable directory before creating the app
+
+!! the app will be created in the current directory; make sure to change to a desired directory before creating the app
+
+```npx create-react-app my_dapp``` 
+
 **name can not contain capital letters!!**
 
 https://github.com/facebook/create-react-app
